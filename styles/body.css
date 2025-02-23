@@ -1,0 +1,186 @@
+.head-section{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.head-left-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-left: 50px;
+}
+.banner-pic{
+  height:330px;
+}
+.tea-house-title{
+  font-size: 65px;
+  line-height: 70px;
+  width:450px;
+  font-weight: 600;
+}
+.tea-house-description{
+ color: rgb(99,99,99);
+}
+.explore-button{
+  padding:6px 20px 16px 20px;
+  font-size:15px;
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(to right,rgb(252, 140, 60),rgb(255, 0, 0)) ;
+  border-radius: 8px;
+  border:none;
+  margin-top:5px;
+}
+.explore-arrow{
+  font-size:24px;
+}
+.tea-card-section{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tea-cards-header-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:25px;
+  width:480px;
+  position:relative;
+}
+.five-star-rating-container{
+  display:flex;
+  flex-direction:row;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+  align-items: center;
+  justify-content: center;
+  position:absolute;
+  background-color: white;
+  border-radius: 10px;
+  width:150px;
+  height:80px;
+  margin-top: -200px;
+  margin-right: -420px;
+}
+.rating-point{
+  font-size: 24px;
+  font-weight: 700;
+  color:black;
+}
+.five-star-rating{
+  display: flex;
+  flex-direction: column;
+  color:rgb(99,99,99);
+}
+.five-star{
+  font-size: 30px;
+}
+.tea-cards-header-title{
+  font-size:36px;
+  font-weight: 700;
+}
+.tea-cards-header-description{
+  text-align: center;
+  color:rgb(99,99,99);
+}
+
+.tea-cards-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top:35px;
+}
+.tea-card-1,
+.tea-card-2,
+.tea-card-3,
+.tea-card-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+  padding-top:20px;
+  margin-left: 30px;
+  width:130px;
+  height:300px;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.15);
+}
+.tea-card-img{
+  height:150px;
+}
+.tea-card-title{
+  font-size:17px;
+  font-weight: 700;
+}
+.tea-card-text{
+  color:rgb(99,99,99);
+  width:100px;
+}
+.fresh-tea-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fresh-tea-container{
+  margin-top:20px;
+  display:grid;
+  grid-template-rows: 2fr 1fr ;
+  grid-template-columns: 1fr 2fr ;
+  width:600px;
+  height:550px;
+  justify-self: center;
+  align-items: center;
+}
+.empty-space-1{
+  width:300px;
+  height:180px;
+  border-radius: 20px;
+  background:linear-gradient( to right,rgb(254, 218, 224),rgb(251, 239, 241));
+}
+.empty-space-2{
+  width:320px;
+  height:160px;
+  border-radius: 20px;
+  margin-top:18px;
+  background:linear-gradient( to right,rgb(213, 230, 239),rgb(250, 224, 112));
+}
+.fresh-img-2{
+  padding: 35px 75px;
+  border-radius: 20px;
+  margin-top:20px;
+  margin-right:20px;
+  background-color:rgb(253, 246, 246);
+}
+.fresh-img-1{
+  padding: 50px 70px;
+  border-radius: 20px;
+  background-color:rgb(252, 246, 246);
+}
+.tea-speciality{
+  display:flex;
+  flex-direction: column;
+  width:650px;
+  margin-top:20px;
+}
+.tea-speciality-1-title{
+  font-size:50px;
+  line-height: 55px;
+  font-weight: 700;
+}
+.tea-speciality-title{
+  font-size: 22px;
+  font-weight: 700;
+}
+.tea-speciality-desription{
+  color:rgb(154, 149, 149);
+}
+.tea-speciality-1,
+.tea-speciality-2,
+.tea-speciality-3{
+  margin-top:15px;
+}
