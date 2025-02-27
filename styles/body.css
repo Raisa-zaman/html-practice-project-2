@@ -14,6 +14,36 @@
 .banner-pic{
   height:330px;
 }
+.head-right-section{
+  position:relative;
+}
+.five-star-rating-container{
+  display:flex;
+  flex-direction:row;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+  align-items: center;
+  justify-content: center;
+  position:absolute;
+  background-color: white;
+  border-radius: 10px;
+  width:150px;
+  height:80px;
+  margin-top: -50px;
+  margin-right: -10px;
+}
+.rating-point{
+  font-size: 24px;
+  font-weight: 700;
+  color:black;
+}
+.five-star-rating{
+  display: flex;
+  flex-direction: column;
+  color:rgb(99,99,99);
+}
+.five-star{
+  font-size: 30px;
+}
 .tea-house-title{
   font-size: 65px;
   line-height: 70px;
@@ -36,6 +66,83 @@
 .explore-arrow{
   font-size:24px;
 }
+@media (max-width:640px) and (min-width:500px){
+  .head-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tea-cards-header-container .tea-cards-header-description{
+    width: 260px;
+  }
+  .tea-cards-header-container
+  .tea-cards-header-title{
+    font-size:26px;
+    margin-top:20px;
+    font-weight: 700;
+  }
+  .tea-card-section .tea-cards-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+  }
+  .tea-cards-container .tea-card-1,
+  .tea-cards-container .tea-card-2,
+  .tea-cards-container .tea-card-3,
+  .tea-cards-container .tea-card-4{
+    width:300px;
+    height: 350px;
+  }
+  .tea-cards-container .tea-card-img{
+    height:200px;
+  }
+  .tea-cards-container .tea-card-text{
+    width: 200px;
+  }
+}
+@media (max-width:1550px) and (min-width:980px){
+  .head-section{
+    display:flex;
+    flex: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .head-left-section{  
+    margin-right:0px;
+  }
+  .tea-house-title{
+    width:685px;
+    font-size: 70px;
+  }
+  .banner-pic{
+    height:330px;
+  }
+  .five-star-rating-container{
+    width:200px;
+    margin-left:-50px;
+  }
+  .tea-cards-header-description{
+    width:750px;
+  }
+  .tea-cards-container .tea-card-1,
+  .tea-cards-container .tea-card-2,
+  .tea-cards-container .tea-card-3,
+  .tea-cards-container .tea-card-4{
+    width:260px;
+    height: 320px;
+    padding-top: 30px;
+    border-radius: 10px;
+  }
+  .tea-cards-container .tea-card-img{
+    height:210px;
+  }
+  .tea-cards-container .tea-card-text{
+    width:210px;
+  }
+}
 .tea-card-section{
   display:flex;
   flex-direction: column;
@@ -49,34 +156,6 @@
   align-items: center;
   margin-top:25px;
   width:480px;
-  position:relative;
-}
-.five-star-rating-container{
-  display:flex;
-  flex-direction:row;
-  box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
-  align-items: center;
-  justify-content: center;
-  position:absolute;
-  background-color: white;
-  border-radius: 10px;
-  width:150px;
-  height:80px;
-  margin-top: -200px;
-  margin-right: -420px;
-}
-.rating-point{
-  font-size: 24px;
-  font-weight: 700;
-  color:black;
-}
-.five-star-rating{
-  display: flex;
-  flex-direction: column;
-  color:rgb(99,99,99);
-}
-.five-star{
-  font-size: 30px;
 }
 .tea-cards-header-title{
   font-size:36px;
@@ -183,4 +262,60 @@
 .tea-speciality-2,
 .tea-speciality-3{
   margin-top:15px;
+}
+@media (max-width:1550px) and (min-width:980px){
+.fresh-tea-section{
+  display:flex;
+  flex-direction: row;
+}
+.fresh-tea-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.fresh-img-1{
+  padding: 20px 20px;
+}
+.fresh-img-2{
+  padding: 20px 35px;
+}
+.empty-space-1{
+  height:150px;
+  width:220px;
+  margin-right:20px;
+}
+.empty-space-2{
+  height:150px;
+  width:220px;
+}
+}
+@media (max-width:640px) and (min-width:500px){
+  .fresh-tea-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fresh-img-1{
+    padding: 15px 2px;
+  }
+  .fresh-img-2{
+    padding: 15px 15px;
+  }
+  .empty-space-1{
+    height:130px;
+    width:180px;
+  }
+  .empty-space-2{
+    height:130px;
+    width:182px;
+    margin-top:15px;
+  }
+  .tea-speciality{
+    margin-top:0px;
+    width:350px;
+  }
+  .fresh-tea-container{
+    width:520px;
+    height: 480px;
+  }
 }
